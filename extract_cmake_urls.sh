@@ -8,7 +8,7 @@
 # Colors
 RED='\033[0;31m'; GREEN='\033[0;32m'; YELLOW='\033[1;33m'; BLUE='\033[0;34m'; NC='\033[0m'
 
-OUTPUT_DIR="downloads"
+OUTPUT_DIR="data"
 CMAKE_DIR=""
 TIMEOUT=300
 RETRY_COUNT=5
@@ -24,7 +24,7 @@ Actions:
   update            Download new artifacts and prune old versions
 
 Options:
-  -o, --output-dir DIR   Output directory (default: downloads)
+  -o, --output-dir DIR   Output directory (default: data)
   -c, --cmake-dir DIR    Path to DepthAI checkout (repo root or cmake/)
   -h, --help             Show this help
 EOF
